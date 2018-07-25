@@ -12,8 +12,8 @@ header {
   padding: 3rem;
 }
 
-header span {
-  padding: 1rem;
+.search_input {
+  padding: 0.5rem 1rem;
   font-family: "Work Sans", sans-serif;
   color: rgb (191, 191, 191);
   background-color: white;
@@ -22,6 +22,7 @@ header span {
 
 h1 {
   font-size: 2.5rem;
+  padding: 0.5rem 0;
 }
 
 .search_button {
@@ -29,5 +30,13 @@ h1 {
   color: rgb(35, 2, 63);
   padding: 0.5rem 1rem;
   border-radius: 9999px;
+  text-align: center;
+}
 
+.search {
+  border: none;
+}
+
+.search_button:hover {
+  background-color: rgb(255, 0, 171);
 }
