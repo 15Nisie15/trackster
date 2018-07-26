@@ -9,15 +9,22 @@ header {
   background-color: rgb(35, 2, 63);
   font-family: "Righteous", sans-serif;
   color: rgb(255, 0, 171);
-  padding: 3rem;
+  padding: 2rem 0rem;
+  margin: 0;
+}
+
+.search_frame {
+  background-color: white;
+  border-radius: 9999px;
+  color: rgb (191, 191, 191);
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .search_input {
-  padding: 0.5rem 1rem;
   font-family: "Work Sans", sans-serif;
-  color: rgb (191, 191, 191);
-  background-color: white;
-  border-radius: 9999px;
+  border: none;
+  font-size: 1.15rem;
 }
 
 h1 {
@@ -28,13 +35,9 @@ h1 {
 .search_button {
   background-color: rgb(255, 0, 171);
   color: rgb(35, 2, 63);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border-radius: 9999px;
   text-align: center;
-}
-
-.search {
-  border: none;
 }
 
 .search_button:hover {
